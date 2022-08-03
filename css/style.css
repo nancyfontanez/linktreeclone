@@ -1,0 +1,120 @@
+:root {
+   --purple: #816da1;
+   --gold: #cf9655;
+}
+html {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #ffffff;
+}
+body {
+    background: var(--purple);
+}
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 410px;
+    border-radius: 10px;
+}
+.linksImageContainer {
+    position: relative;
+    left: 125px;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 18px 0;
+}
+.linksImage { 
+    position: absolute;
+    border-radius: 50%;
+    top: 85.5px;
+    left: 84px;
+    transform: translate(-50%, -50%);
+}
+.profileImage {
+    border-radius: 50%;
+    width: 150px;
+}
+.circle {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 6px;
+    background-clip: content-box;
+    animation: spin 5s linear 1;
+}
+.linksImageContainer:active .circle {
+    animation: spin 5s linear 1;
+}
+.border {
+    border: 3px dotted var(--gold);
+}
+@keyframes spin { 
+    100% { 
+      transform: rotateZ(360deg);
+    }
+  }
+span {
+    font-size: 30px;
+    color: var(--gold);
+}
+h1 {
+    font-size: 55px;
+    margin: 0 0 15px 0;
+}
+h3 {
+    margin: 5px 0 5px 0;
+}
+p, h3 {
+    font-weight: 500;
+}
+p {
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    
+}
+li {
+    display: inline;
+}
+.linksSocialMedia {
+    text-align: center;
+}
+hr {
+    width: 410px;
+    margin-inline-start: 0;
+    border-top: 1px solid #ffffff;
+    border-left: none;
+}
+.icons {
+    font-size: 40px;
+    color: #ffffff;
+    padding: 13px;
+    margin: 0 0 -20px 0;   
+}
+.icons:hover, span:hover {
+    transform: scale(1.05);
+    color: var(--gold);
+}
+.whiteButtons {
+    border-radius: 40px;
+    background-color: #ffffff;
+    padding: 12px 0 12px 0;
+    text-align: center;
+    font-size: 19px;
+    color: var(--purple);
+    margin: 18px 0 10px 0;
+}
+.whiteButtons:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 1px #cf9655;
+}
+a {
+    text-decoration: none;
+    color: var(--purple);
+}
