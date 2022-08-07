@@ -16,12 +16,11 @@ body {
     align-content: center;
     justify-content: center;
     margin: auto;
-    width: 410px;
-    border-radius: 10px;
+    width: 360px;
 }
 .linksImageContainer {
     position: relative;
-    left: 125px;
+    left: 90px;
     width: 150px;
     height: 150px;
     margin: 50px 0 18px 0;
@@ -62,7 +61,7 @@ span {
     color: var(--gold);
 }
 h1 {
-    font-size: 55px;
+    font-size: 47px;
     margin: 0 0 15px 0;
 }
 h3 {
@@ -86,13 +85,13 @@ li {
     text-align: center;
 }
 hr {
-    width: 410px;
+    width: 350px;
     margin-inline-start: 0;
     border-top: 1px solid #ffffff;
     border-left: none;
 }
 .icons {
-    font-size: 40px;
+    font-size: 32px;
     color: #ffffff;
     padding: 13px;
     margin: 0 0 -20px 0;   
@@ -108,6 +107,7 @@ hr {
     text-align: center;
     font-size: 19px;
     color: var(--purple);
+    width: 350px;
     margin: 18px 0 10px 0;
 }
 .whiteButtons:hover {
@@ -117,4 +117,7 @@ hr {
 a {
     text-decoration: none;
     color: var(--purple);
+}
+footer {
+    margin: 25px;
 }
