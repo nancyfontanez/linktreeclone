@@ -1,13 +1,14 @@
 :root {
-   --purple: #816da1;
-   --gold: #cf9655;
+   --primary: #816da1;
+   --secondary: #ffffff;
+   --tertiary: #cf9655;
 }
 html {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #ffffff;
+    color: var(--secondary);
 }
 body {
-    background: var(--purple);
+    background: var(--primary);
 }
 .linksContainer {
     display: flex;
@@ -49,7 +50,7 @@ body {
     animation: spin 5s linear 1;
 }
 .border {
-    border: 3px dotted var(--gold);
+    border: 3px outset var(--tertiary);
 }
 @keyframes spin { 
     100% { 
@@ -58,7 +59,7 @@ body {
   }
 span {
     font-size: 30px;
-    color: var(--gold);
+    color: var(--tertiary);
 }
 h1 {
     font-size: 47px;
@@ -87,36 +88,36 @@ li {
 hr {
     width: 350px;
     margin-inline-start: 0;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid var(--secondary);
     border-left: none;
 }
 .icons {
     font-size: 32px;
-    color: #ffffff;
+    color: var(--secondary);
     padding: 13px;
     margin: 0 0 -20px 0;   
 }
 .icons:hover, span:hover {
     transform: scale(1.05);
-    color: var(--gold);
+    color: var(--tertiary);
 }
 .whiteButtons {
     border-radius: 40px;
-    background-color: #ffffff;
+    background-color: var(--secondary);
     padding: 12px 0 12px 0;
     text-align: center;
     font-size: 19px;
-    color: var(--purple);
+    color: var(--primary);
     width: 350px;
     margin: 18px 0 10px 0;
 }
 .whiteButtons:hover {
     transform: scale(1.01);
-    box-shadow: 2px 2px 1px #cf9655;
+    box-shadow: 2px 2px 1px var(--tertiary);
 }
 a {
     text-decoration: none;
-    color: var(--purple);
+    color: var(--primary);
 }
 footer {
     margin: 25px;
