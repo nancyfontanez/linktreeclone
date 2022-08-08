@@ -94,9 +94,9 @@ hr {
     border-left: none;
 }
 .icons {
-    font-size: 32px;
+    font-size: 30px;
     color: var(--secondary);
-    padding: 13px;
+    padding: 9px;
     margin: 0 0 -20px 0;   
 }
 .icons:hover, span:hover {
