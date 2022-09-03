@@ -44,19 +44,19 @@ body {
     border-radius: 50%;
     padding: 6px;
     background-clip: content-box;
-    animation: spin 5s linear 1;
+    /* animation: spin 5s linear 1; */
 }
-.linksImageContainer:active .circle {
+/*.linksImageContainer:active .circle {
     animation: spin 5s linear 1;
 }
 .border {
     border: 3px outset var(--tertiary);
 }
-@keyframes spin { 
+ @keyframes spin {  
     100% { 
       transform: rotateZ(360deg);
     }
-  }
+  }*/
 span {
     font-size: 30px;
     color: var(--tertiary);
